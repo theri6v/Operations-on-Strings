@@ -1,0 +1,56 @@
+Here we will write python program, we will Remove spaces from a string words whether the sentence is meaningful or meaningless and we can do this in two different ways:-
+
+By traversing the string and removing spaces.
+Using the join function.
+ 
+
+Python program to remove spaces from a string
+
+------------------------------------------------------------------Method 1------------------------------------------------------------------
+
+Algorithm
+Step 1:- Start.
+Step 2:-  Take String Input.
+Step 3:- Use join function to remove spaces.
+Step 4:- Print String.
+Step 5:- End.
+Python code
+Run
+#take user input 
+String = "PrepInsta is fabulous"
+
+#Use join function 
+String = "".join(String.split()) 
+
+#print String 
+print("After removing spaces string is :",String)
+Output
+After removing spaces string is : PrepInstaisfabulous
+Note
+A sentence may contain many words and each word join another word with a space in it that tells us about the completion of the word and start of another word so readability is maintained.
+
+------------------------------------------------------------------Method 2------------------------------------------------------------------
+
+Algorithm :
+Take a string as an input from the user.
+Count number of spaces in the string and store it in a variable say t
+Use a loop to call replace() function t times
+Replace space character with ” in a string.
+Print output.
+Python program to Remove spaces from a string
+Run
+# spaces from a string
+# Input string
+s="PrepInsta is fabulous"
+# Count no. of spaces in a string
+t=s.count(" ")
+# replace all the spaces with ”
+for i in range(t):
+    s=s.replace(' ',"")
+
+# Print the output
+print("String after removing space: ")
+print(s)
+Output
+String after removing space: 
+PrepInstaisfabulous
