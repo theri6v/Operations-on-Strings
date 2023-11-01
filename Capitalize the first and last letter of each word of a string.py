@@ -27,7 +27,7 @@ Output
 Enter the String :Prepinsta
 PrepinstA
 
------------------------------------------------------------------------------Method 2 (Capitalize the First and Last letter)-----------------------------------------------------------------------------
+'''-----------------------------------------------------------------------------Method 2 (Capitalize the First and Last letter)-----------------------------------------------------------------------------'''
 
 def FirstAndLast(string) :
     # Create an equivalent char array of given string
