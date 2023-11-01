@@ -13,7 +13,7 @@ Method 1: Sorts both string and check if the results are same or not
 Method 2: Uses counter method that gives results of individual counts of items present in the list, and compare them
 
 
---------------------------------------------------------------Method 1:--------------------------------------------------------------
+'''--------------------------------------------------------------Method 1:--------------------------------------------------------------'''
 
 This method first converts both strings into lowercase
 We sort both of the strings
@@ -40,7 +40,7 @@ String1 after sorting:  ['e', 'i', 'l', 'n', 's', 't']
 String2 after sorting:  ['e', 'i', 'l', 'n', 's', 't']
 Strings are anagram
 
---------------------------------------------------------------Method 2--------------------------------------------------------------
+'''--------------------------------------------------------------Method 2--------------------------------------------------------------'''
 
 We use counter method from the collections library for this.
 
